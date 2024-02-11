@@ -2,7 +2,9 @@
   <img src="img/logo.png" width=30%>
 </p>
 <p align="center"> 
-  <img src="https://img.shields.io/badge/-Java-red.svg?logo=Java&style=flat" /><img src="https://img.shields.io/badge/-Android Studio-black.svg?logo=Java&style=flat" />
+  <img src="https://img.shields.io/badge/-Java-red.svg?logo=Java&style=flat" />
+  <img src="https://img.shields.io/badge/-Android Studio-black.svg?logo=Java&style=flat" />
+  <img src="https://img.shields.io/badge/-GitHub-181717.svg?logo=github&style=flat" />
 </p>
 
 ### Pixel Craft Studio 概要

@@ -1,15 +1,30 @@
-## Java(Android)とOpenCVを用いた画像処理アプリ
+## Pixel Craft Studio
+<img src="https://img.shields.io/badge/-Java-red.svg?logo=Java&style=flat" /><img src="https://img.shields.io/badge/-Android Studio-black.svg?logo=Java&style=flat" />
+
+### アプリ概要
+- 画像処理の授業で学んだ技術を実装し、スマホの写真で簡単に実行できるAndroidアプリ
+- <a href="https://alss-portal.gifu-u.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2022&value(semekikn)=1&value(kougicd)=1TDB8343A0&value(crclumcd)=T-2022)">画像処理授業シラバス</a>
 
 ### 実装した機能
-・アンシャープマスクフィルタ(使うフィルターサイズ、重みは変更可能)\
-・画像に映る物体の輪郭抽出(ガウシアンフィルタ、2値化などの前処理で実装)\
-・編集した画像にペイント\
-・編集後の画像をギャラリーに保存
+- アンシャープマスクフィルタ(使うフィルターサイズ、重みは変更可能)
+  - 画像のエッジが強調された画像を得るための処理
+  - 最適なフィルターサイズ、重みを見つける必要がある
+      
+- 画像に映る物体の輪郭抽出
+  - カラー画像をグレースケールに変換
+  - グレースケール画像にガウシアンフィルタをかけることでぼかす
+  - 大津の2値化
+  - 輪郭を取り出す
+    
+- 編集した画像にペイント
+- 編集後の画像をギャラリーに保存
+
+### 使用した技術
+- Java(Android Studio)
+- OpenCV 4.6.0
 
 ### 注意事項
-・AndroidStudioで作成\
-・OpenCVのバーションは4.6.0\
-・リポジトリ容量を食うので、ライブラリ(openCV)はPUSHしていない
+- リポジトリ容量を食うので、ライブラリ(openCV)はPUSHしていない
 
 ### ライブラリのインストール手順
 １．https://opencv.org/releases/ よりダウンロード(バージョンは**4.6.0、Android版**を選択)

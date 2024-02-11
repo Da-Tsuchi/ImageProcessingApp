@@ -2,7 +2,7 @@
 <img src="https://img.shields.io/badge/-Java-red.svg?logo=Java&style=flat" /><img src="https://img.shields.io/badge/-Android Studio-black.svg?logo=Java&style=flat" />
 
 ### アプリ概要
-- 画像処理の授業で学んだ技術を実装し、スマホの写真で簡単に実行できるAndroidアプリ
+- 画像処理の授業で学んだ技術を実装し、スマホやタブレットの写真で簡単に実行できるAndroidアプリ
 - <a href="https://alss-portal.gifu-u.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2022&value(semekikn)=1&value(kougicd)=1TDB8343A0&value(crclumcd)=T-2022)">画像処理授業シラバス</a>
 
 ### 実装した機能

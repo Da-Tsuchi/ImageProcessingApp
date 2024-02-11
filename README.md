@@ -1,4 +1,5 @@
-## Pixel Craft Studio
+<img src="img/twitter_header_photo_2.png">
+
 <img src="https://img.shields.io/badge/-Java-red.svg?logo=Java&style=flat" /><img src="https://img.shields.io/badge/-Android Studio-black.svg?logo=Java&style=flat" />
 
 ### アプリ概要

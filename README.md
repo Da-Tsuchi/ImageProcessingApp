@@ -6,18 +6,27 @@
 - <a href="https://alss-portal.gifu-u.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2022&value(semekikn)=1&value(kougicd)=1TDB8343A0&value(crclumcd)=T-2022)">画像処理授業シラバス</a>
 
 ### 実装した機能
-- アンシャープマスクフィルタ(使うフィルターサイズ、重みは変更可能)
+#### アンシャープマスクフィルタ(使うフィルターサイズ、重みは変更可能)
   - 画像のエッジが強調された画像を得るための処理
   - 最適なフィルターサイズ、重みを見つける必要がある
+    
+  <video src="https://github.com/Da-Tsuchi/ImageProcessingApp/assets/117258037/63d0630f-16a9-403a-99ef-429d12a0815b"></video>
       
-- 画像に映る物体の輪郭抽出
+#### 画像に映る物体の輪郭抽出
   - カラー画像をグレースケールに変換
   - グレースケール画像にガウシアンフィルタをかけることでぼかす
   - 大津の2値化
   - 輪郭を取り出す
-    
-- 編集した画像にペイント
-- 編集後の画像をギャラリーに保存
+
+  <video src=https://github.com/Da-Tsuchi/ImageProcessingApp/assets/117258037/ce174a84-a9b3-48de-b4dd-b190ed074955></video>
+  <video src=https://github.com/Da-Tsuchi/ImageProcessingApp/assets/117258037/059bedbc-ce2d-49a3-9c13-ede5093f9e74></video>
+  
+  
+#### 編集した画像にペイント・編集後の画像をギャラリーに保存
+  <video src=https://github.com/Da-Tsuchi/ImageProcessingApp/assets/117258037/9c329c03-e4f0-4cd5-98fc-a244b8e0fa7f></video>
+  
+
+
 
 ### 使用した技術
 - Java(Android Studio)
